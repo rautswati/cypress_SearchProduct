@@ -1,0 +1,26 @@
+{
+    "env": 
+	{
+    "baseUrl": "",
+    "baseUrl1": "https://www.pepperfry.com/"
+    
+    
+          
+	},	    
+    "reporter": "mochawesome",
+    "reporterOptions": 
+    {
+      "reportDir": "cypress/results",
+      "overwrite": false,
+      "html": true,
+      "json": false
+    },
+    "chromeWebSecurity": false,
+    "pageLoadTimeout": 90000,
+    "fixturesFolder":"cypress/fixtures",
+    "integrationFolder":"cypress/integration",
+    "pluginsFolder":"cypress/plugins/index.js",
+    "supportFile":"cypress/support/index.js",
+    "watchForFileChanges": true
+
+}
